@@ -2,6 +2,14 @@
 #navbar {
 }
 
+.navbar-custom {
+  background-color: #ff9a76;
+}
+
+.navbar-brand {
+  color: white;
+}
+
 .HashLink {
   color: white;
   margin-left: 3rem;
@@ -9,21 +17,18 @@
 /* //////////////////////////// */
 /* Landing page Component*/
 /* //////////////////////////// */
-#header {
-  height: 50rem;
-  background-color: blue;
-}
-/*Introduction div*/
-#introSection {
+.mainContainer {
 }
 
-/* Portfolio div */
-#portfolioSection {
+/*Introduction div*/
+#introSection {
+  /* background-color: #ffeadb; */
+}
+
+/* Skills div */
+#skillsSection {
   width: 100%;
   max-width: 100%;
-  height: 10rem;
-  background-color: aqua;
-  color: rgb(180, 22, 83);
 }
 
 /* Footer div */
@@ -31,7 +36,35 @@
   height: 50rem;
   background-color: black;
 }
+/* //////////////////////////// */
+/* Introduction page Component*/
+/* //////////////////////////// */
+.intro {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
 
 /* //////////////////////////// */
-/* Portfolio component */
+/* Skills component */
 /* //////////////////////////// */
+.skills {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f7c5a8;
+}
+.skill-row {
+  margin: 70px auto;
+  width: 50%;
+  text-align: left;
+}
+.web-design {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.machine-learning {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}

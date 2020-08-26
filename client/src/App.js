@@ -4,7 +4,8 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./components/Landing";
-import Portfolio from "./components/Portfolio";
+import Intro from "./components/Intro";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 class App extends Component {
@@ -26,8 +27,9 @@ class App extends Component {
           <NavigationBar />
           <Route exact path="/" component={Landing} />
           <div className="container"></div>
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/skills" component={Skills} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/intro" component={Intro} />
         </div>
       </Router>
     );

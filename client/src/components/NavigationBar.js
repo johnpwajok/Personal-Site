@@ -6,21 +6,7 @@ import styles from "./sytles/styles.css";
 export default class NavigationBar extends Component {
   render() {
     return (
-      /*<div>
-        <div id="navBar">
-          <button>
-            <HashLink smooth to="/#footer">
-              Go to footer div
-            </HashLink>
-          </button>
-          <button>
-            <HashLink smooth to="/#footer">
-              Go to contact div
-            </HashLink>
-          </button>
-        </div>
-      </div>*/
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom">
         <a class="navbar-brand" href="#">
           John Pwajok
         </a>
@@ -35,20 +21,23 @@ export default class NavigationBar extends Component {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarText"
+        >
+          <ul class="navbar-nav  d-flex">
             <li class="nav-item active">
-              <HashLink class="HashLink" smooth to="/#header">
+              <HashLink class="HashLink" smooth to="/#introSection">
                 Home
               </HashLink>
             </li>
             <li class="nav-item active">
-              <HashLink class="HashLink" smooth to="/#footer">
-                Portfolio
+              <HashLink class="HashLink" smooth to="/#skillsSection">
+                skills
               </HashLink>
             </li>
             <li class="nav-item">
-              <HashLink class="HashLink" smooth to="/#footer">
+              <HashLink class="HashLink" smooth to="/#contactSection">
                 Contact
               </HashLink>
             </li>

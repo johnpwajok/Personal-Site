@@ -1,20 +1,19 @@
 import React, { Component } from "react";
 import styles from "./sytles/styles.css";
-import Portfolio from "./Portfolio";
+import Intro from "./Intro";
+import Skills from "./Skills";
 import Contact from "./Contact";
 
 export default class Landing extends Component {
   render() {
     return (
-      <div>
-        <div id="header">
+      <div class="mainContainer">
+        <div id="introSection">
           <br></br>
-          <br></br>
-          <h1>Landing page</h1>
+          <Intro></Intro>
         </div>
-        <div id="introSection"></div>
-        <div id="portfolioSection">
-          <Portfolio></Portfolio>
+        <div id="skillsSection">
+          <Skills></Skills>
         </div>
         <div id="contactSection">
           <Contact></Contact>
