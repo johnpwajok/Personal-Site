@@ -4,6 +4,7 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./components/Landing";
+import Portfolio from "./components/Portfolio";
 
 class App extends Component {
   constructor(props) {
@@ -20,11 +21,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        {" "}
-        <div className="container">
-          {" "}
-          <NavigationBar /> <Route exact path="/" component={Landing} />{" "}
-        </div>{" "}
+        <div className="App">
+          <NavigationBar />
+          <Route exact path="/" component={Landing} />
+          <div className="container"></div>
+          <Route exact path="/portfolio" component={Portfolio} />
+        </div>
       </Router>
     );
   }
