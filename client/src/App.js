@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./components/Landing";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends Component {
           <Route exact path="/" component={Landing} />
           <div className="container"></div>
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
     );

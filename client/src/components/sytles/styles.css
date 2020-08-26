@@ -1,18 +1,37 @@
-#top {
+/* navbar component */
+#navbar {
+}
+
+.HashLink {
+  color: white;
+  margin-left: 3rem;
+}
+/* //////////////////////////// */
+/* Landing page Component*/
+/* //////////////////////////// */
+#header {
   height: 50rem;
   background-color: blue;
 }
-
-#middle {
-  height: 50rem;
-  background-color: red;
+/*Introduction div*/
+#introSection {
 }
 
-#bottom {
+/* Portfolio div */
+#portfolioSection {
+  width: 100%;
+  max-width: 100%;
+  height: 10rem;
+  background-color: aqua;
+  color: rgb(180, 22, 83);
+}
+
+/* Footer div */
+#footer {
   height: 50rem;
   background-color: black;
 }
 
-#testing {
-  background-color: red;
-}
+/* //////////////////////////// */
+/* Portfolio component */
+/* //////////////////////////// */
