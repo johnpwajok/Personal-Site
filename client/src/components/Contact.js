@@ -29,7 +29,7 @@ export default class Contact extends Component {
               ></img>
             </a>
             <a
-              class="btn btn-warning btn-lg githubLink"
+              class="btn btn-warning btn-lg githubLink githubIcon"
               role="button"
               href="https://www.linkedin.com/in/john-g-pwajok-123762118/"
               target="_blank"
@@ -37,7 +37,7 @@ export default class Contact extends Component {
               <img
                 src={linkedIn}
                 alt="git overview image"
-                class="contactIcon"
+                class="contactIcon "
               ></img>
             </a>
             <br></br>
