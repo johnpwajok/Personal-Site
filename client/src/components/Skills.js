@@ -22,7 +22,9 @@ export default class Skills extends Component {
                 well as for my own personal projects, and have gained experience
                 working with HTML, CSS, JavaScript, React, Node.js and Flask. I
                 also have experience with deployment to cloud services including
-                Heroku and AWS.
+                Heroku and AWS. Along with development, I have experience
+                developing wireframes and prototypes for web applications (with
+                Justinmind) and also API testing with Postman.
               </p>
             </div>
             <div class="skill-row">
@@ -36,9 +38,11 @@ export default class Skills extends Component {
               <p>
                 I have gained experience working with C (this was my first
                 programming language and is what got me interested in
-                programming), Python (used on the backend for my final year
-                project with Flask) and Java. I also have some exposure to R
-                which I have used to do some data visualisation projects.
+                programming), Python which I used extensively on the backend for
+                my final year project with the Pandas and Scikit-earn libraries,
+                and Java which was the language in which I was introduced to
+                OOP. I also have some exposure to R which I have used to do some
+                data visualisation projects.
               </p>
             </div>
             <div class="skill-row">
@@ -49,11 +53,12 @@ export default class Skills extends Component {
               />
               <h3>Infrastructure</h3>
               <p>
-                I studied Computer Science (Infrastructure) and have a solid
-                foundation in networking technologies and principles (primarily
-                Cisco Systems), databases (MySQL, Oracle Database and PostgreSQL
-                which I learned on my own) as well as configuring and managing
-                Linux Systems.
+                I studied Computer Science (Infrastructure) which has given me a
+                solid foundation in networking technologies and principles
+                (primarily Cisco Systems), databases (MySQL, Oracle Database and
+                PostgreSQL which I learned on my own) as well as configuring and
+                managing Linux Systems. I have development experience with
+                MacOS, Windows, Linux and Android.
               </p>
             </div>
           </FadeIn>
