@@ -13,7 +13,7 @@ export default class Intro extends Component {
           <br></br>
           <p class="intro">
             <em>
-              I'm John, a programmer and recent Computer Science graduate.
+              I am John, a programmer and recent Computer Science graduate.
             </em>
             <br></br>
             <br></br>I am currently looking for exciting opportunities within

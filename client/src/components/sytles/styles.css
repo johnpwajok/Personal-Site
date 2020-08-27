@@ -155,5 +155,8 @@ p {
   color: #0072b1;
   border-style: none;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 820px) {
+  .intro {
+    width: 70%;
+  }
 }
