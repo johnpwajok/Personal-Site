@@ -43,14 +43,15 @@ p {
 
 /* Footer div */
 #footer {
-  height: 50rem;
-  background-color: black;
+  width: 100%;
+  background-color: #ff9a76;
 }
 /* //////////////////////////// */
 /* Introduction page Component*/
 /* //////////////////////////// */
 .intro {
   width: 50%;
+  max-width: 1200px;
   margin: auto;
   padding-bottom: 2rem;
 }
@@ -71,6 +72,7 @@ p {
 .skill-row {
   margin: 70px auto;
   width: 70%;
+  max-width: 1200px;
   text-align: left;
   overflow: hidden;
 }
@@ -127,5 +129,25 @@ p {
   background-color: black;
 }
 
+/*Contact div*/
+/*contact me div*/
+.contact-me {
+  padding-bottom: 2rem;
+}
+.contact-message {
+  margin: 40px auto 60px;
+  width: 70%;
+}
+
+.contactIcon {
+  width: 3.5rem;
+  height: 3rem;
+}
+
+.githubLink {
+  margin: auto 30px;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+}
 @media only screen and (max-width: 767px) {
 }
