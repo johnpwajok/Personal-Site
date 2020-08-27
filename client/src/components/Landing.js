@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styles from "./sytles/styles.css";
 import Intro from "./Intro";
 import Skills from "./Skills";
+import Projects from "./Projects";
 import Contact from "./Contact";
 
 export default class Landing extends Component {
@@ -14,6 +15,9 @@ export default class Landing extends Component {
         </div>
         <div id="skillsSection">
           <Skills></Skills>
+        </div>
+        <div id="projectsSection">
+          <Projects></Projects>
         </div>
         <div id="contactSection">
           <Contact></Contact>

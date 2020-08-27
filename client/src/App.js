@@ -27,9 +27,9 @@ class App extends Component {
           <NavigationBar />
           <Route exact path="/" component={Landing} />
           <div className="container"></div>
-          <Route exact path="/skills" component={Skills} />
+          {/* <Route exact path="/skills" component={Skills} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/intro" component={Intro} />
+          <Route exact path="/intro" component={Intro} /> */}
         </div>
       </Router>
     );
