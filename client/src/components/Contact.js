@@ -19,7 +19,7 @@ export default class Contact extends Component {
             <a
               class="btn btn-info btn-lg"
               role="button"
-              href="mailto:johnpwajok97@hotmail.com@hotmail.com"
+              href="mailto:johnpwajok@protonmail.com"
               target="_blank"
             >
               <img
