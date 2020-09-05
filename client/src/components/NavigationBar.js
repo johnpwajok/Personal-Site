@@ -36,6 +36,11 @@ export default class NavigationBar extends Component {
                 skills
               </HashLink>
             </li>
+            <li class="nav-item active">
+              <HashLink class="HashLink" smooth to="/#projectsSection">
+                Projects
+              </HashLink>
+            </li>
             <li class="nav-item">
               <HashLink class="HashLink" smooth to="/#contactSection">
                 Contact
