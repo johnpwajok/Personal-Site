@@ -5,6 +5,7 @@ import styles from "./sytles/styles.css";
 import gitOverviews from "../images/gitOverviews.png";
 import chefPalace from "../images/chefPalace.png";
 import IKAP from "../images/IKAP.png";
+import fyjal from "../images/fyjal.png";
 
 export default class Projects extends Component {
   render() {
@@ -13,8 +14,8 @@ export default class Projects extends Component {
         <div class="projects">
           <h2>Featured Projects</h2>
           <div class="portfolioContainer">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="row row-eq-height">
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
                   <h2>Git-Overviews</h2>
                   <img
@@ -54,12 +55,12 @@ export default class Projects extends Component {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-12 ">
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
                   <h2>Chef Palace</h2>
                   <img
                     src={chefPalace}
-                    alt="munchiebox"
+                    alt="ChefPalace image"
                     class="img-responsive"
                   ></img>
                   <br></br>
@@ -95,7 +96,50 @@ export default class Projects extends Component {
                   </center>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 ">
+            </div>
+            <div class="row row-eq-height">
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
+                <div class="jumbotron">
+                  <h2>Fyjal</h2>
+                  <img
+                    src={fyjal}
+                    alt="ChefPalace image"
+                    class="img-responsive"
+                  ></img>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+
+                  <p>
+                    Fyjal is a website created to promote a fictional financial
+                    management mobile app. The website was created using React,
+                    Express as well as Bootstrap and the react-bootstrap
+                    libraries. The website is intended only to show the design
+                    and isn't functional (download buttons don't perform any
+                    action). Fyjal is hosted on Heroku.
+                  </p>
+                  <br></br>
+                  <center>
+                    <a
+                      href="https://fyjal.herokuapp.com/"
+                      class="btn btn-primary liveBtn"
+                      target="_blank"
+                    >
+                      Live Site
+                    </a>
+                  </center>
+                  <center>
+                    <a
+                      href="https://github.com/johnpwajok/fyjal"
+                      class="btn btn-primary gitBtn"
+                      target="_blank"
+                    >
+                      View on GitHub
+                    </a>
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
                   <h2>IKnowAPlace (FYP)</h2>
                   <img src={IKAP} alt="munchiebox" class="img-responsive"></img>
