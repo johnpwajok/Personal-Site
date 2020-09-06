@@ -9,12 +9,13 @@ const enforce = require("express-sslify");
 app.use(express.static(path.join(__dirname, "client/build")));
 //production mode
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "client/build"))); //  app.get('*', (req, res) => {    res.sendfile(path.join(__dirname = 'client/build/index.html'));  })}
-
   //HTTPS CODE
   // Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
   // a load balancer (e.g. Heroku). See further comments below
   app.use(enforce.HTTPS({ trustProtoHeader: true }));
+  //End https section
+
+  app.use(express.static(path.join(__dirname, "client/build"))); //  app.get('*', (req, res) => {    res.sendfile(path.join(__dirname = 'client/build/index.html'));  })}
   //build mode
   app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname + "/client/public/index.html"));
