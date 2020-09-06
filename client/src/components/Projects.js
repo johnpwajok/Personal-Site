@@ -36,7 +36,7 @@ export default class Projects extends Component {
                   <br></br>
                   <center>
                     <a
-                      href="http://git-overviews.herokuapp.com/"
+                      href="https://git-overviews.herokuapp.com/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
                     >
