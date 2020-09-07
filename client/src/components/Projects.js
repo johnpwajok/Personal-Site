@@ -17,7 +17,7 @@ export default class Projects extends Component {
             <div class="row row-eq-height">
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
-                  <h2>Git-Overviews</h2>
+                  <h2 className="projectTitle">Git-Overviews</h2>
                   <img
                     src={gitOverviews}
                     alt="git overview image"
@@ -57,7 +57,7 @@ export default class Projects extends Component {
 
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
-                  <h2>Chef Palace</h2>
+                  <h2 className="projectTitle">Chef Palace</h2>
                   <img
                     src={chefPalace}
                     alt="ChefPalace image"
@@ -100,7 +100,7 @@ export default class Projects extends Component {
             <div class="row row-eq-height">
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
-                  <h2>Fyjal</h2>
+                  <h2 className="projectTitle">Fyjal</h2>
                   <img
                     src={fyjal}
                     alt="ChefPalace image"
@@ -141,7 +141,7 @@ export default class Projects extends Component {
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
-                  <h2>IKnowAPlace (FYP)</h2>
+                  <h2 className="projectTitle">IKnowAPlace (FYP)</h2>
                   <img src={IKAP} alt="munchiebox" class="img-responsive"></img>
                   <br></br>
 

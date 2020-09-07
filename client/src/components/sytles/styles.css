@@ -109,6 +109,13 @@ p {
   margin-bottom: 1rem;
   height: 100%;
 }
+.jumbotron:hover {
+  background-color: #ff9a76;
+}
+
+.projectTitle {
+  margin-bottom: 2rem;
+}
 
 .img-responsive {
   max-width: 100%;
