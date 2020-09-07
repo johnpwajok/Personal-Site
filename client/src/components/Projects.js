@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 
 import styles from "./sytles/styles.css";
-import gitOverviews from "../images/gitOverviews.png";
-import chefPalace from "../images/chefPalace.png";
-import IKAP from "../images/IKAP.png";
-import fyjal from "../images/fyjal.png";
+import gitOverviews from "../images/gitOverviews.jpg";
+import chefPalace from "../images/chefPalace.jpg";
+import IKAP from "../images/IKAP.jpg";
+import fyjal from "../images/fyjal.jpg";
 
 export default class Projects extends Component {
   render() {

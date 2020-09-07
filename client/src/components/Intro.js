@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
-import profilePicture from "../images/profilePicture.png";
+import profilePicture from "../images/profilePicture.jpg";
 
 export default class Intro extends Component {
   render() {

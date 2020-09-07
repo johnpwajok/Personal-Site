@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import styles from "./sytles/styles.css";
 import FadeIn from "react-fade-in";
 
-import data from "../images/data.png";
+import data from "../images/data.jpg";
 
-import artificialIntelligence from "../images/artificialIntelligence.png";
-import database from "../images/database.png";
+import artificialIntelligence from "../images/artificialIntelligence.jpg";
+import database from "../images/database.jpg";
 
 export default class Skills extends Component {
   render() {
