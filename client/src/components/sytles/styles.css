@@ -175,4 +175,9 @@ p {
   .intro {
     width: 70%;
   }
+
+  /* disable colour change for projects */
+  .jumbotron:hover {
+    background-color: #f7c5a8;
+  }
 }
