@@ -32,8 +32,8 @@ export default class Projects extends Component {
                     built to be an online platform for ordering food from the
                     fictional Chef Palace restaurant chain. The application is
                     being developed with the MERN stack. The base of the
-                    front-end and account functionalityhas been completed and is
-                    now live, being hosted on a Heroku server.
+                    front-end and account functionality has been completed and
+                    is now live, being hosted on a Heroku server.
                   </p>
                   <br></br>
                   <center>
