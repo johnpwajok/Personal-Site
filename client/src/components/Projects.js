@@ -17,6 +17,48 @@ export default class Projects extends Component {
             <div class="row row-eq-height">
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
+                  <h2 className="projectTitle">Chef Palace</h2>
+                  <img
+                    src={chefPalace}
+                    alt="ChefPalace image"
+                    class="img-responsive"
+                  ></img>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+
+                  <p>
+                    Chef Palace is currently under development and is being
+                    built to be an online platform for ordering food from the
+                    fictional Chef Palace restaurant chain. The application is
+                    being developed with the MERN stack. The base of the
+                    front-end and account functionalityhas been completed and is
+                    now live, being hosted on a Heroku server.
+                  </p>
+                  <br></br>
+                  <center>
+                    <a
+                      href="https://chefpalace.herokuapp.com/"
+                      class="btn btn-primary liveBtn"
+                      target="_blank"
+                    >
+                      Live Site
+                    </a>
+                  </center>
+                  <center>
+                    <a
+                      href="https://github.com/johnpwajok/Chef-Palace-React"
+                      class="btn btn-primary gitBtn"
+                      target="_blank"
+                    >
+                      View on GitHub
+                    </a>
+                  </center>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
+                <div class="jumbotron">
                   <h2 className="projectTitle">Git-Overviews</h2>
                   <img
                     src={gitOverviews}
@@ -46,48 +88,6 @@ export default class Projects extends Component {
                   <center>
                     <a
                       href="https://github.com/johnpwajok/Utilising-GitHub-API"
-                      class="btn btn-primary gitBtn"
-                      target="_blank"
-                    >
-                      View on GitHub
-                    </a>
-                  </center>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
-                <div class="jumbotron">
-                  <h2 className="projectTitle">Chef Palace</h2>
-                  <img
-                    src={chefPalace}
-                    alt="ChefPalace image"
-                    class="img-responsive"
-                  ></img>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-
-                  <p>
-                    Chef Palace is currently under development and is being
-                    built to be an online ordering platform for ordering food
-                    from the fictional Chef Palace restaurant chain. The
-                    application is being developed with the MERN stack. The base
-                    of the front-end has been completed and is now live, being
-                    hosted on a Heroku server.
-                  </p>
-                  <br></br>
-                  <center>
-                    <a
-                      href="https://chefpalace.herokuapp.com/"
-                      class="btn btn-primary liveBtn"
-                      target="_blank"
-                    >
-                      Live Site
-                    </a>
-                  </center>
-                  <center>
-                    <a
-                      href="https://github.com/johnpwajok/Chef-Palace-React"
                       class="btn btn-primary gitBtn"
                       target="_blank"
                     >
