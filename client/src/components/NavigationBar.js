@@ -33,7 +33,7 @@ export default class NavigationBar extends Component {
             </li>
             <li class="nav-item active">
               <HashLink class="HashLink" smooth to="/#skillsSection">
-                skills
+                Skills
               </HashLink>
             </li>
             <li class="nav-item active">

@@ -6,6 +6,7 @@ import gitOverviews from "../images/gitOverviews.jpg";
 import chefPalace from "../images/chefPalace.jpg";
 import IKAP from "../images/IKAP.jpg";
 import fyjal from "../images/fyjal.jpg";
+import stickyNotes from "../images/sticky-notes.png";
 
 export default class Projects extends Component {
   render() {
@@ -162,6 +163,47 @@ export default class Projects extends Component {
                       target="_blank"
                     >
                       Video Demo
+                    </a>
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="row row-eq-height">
+              <div class="col-lg-6 col-md-6 col-sm-12 colItem">
+                <div class="jumbotron">
+                  <h2 className="projectTitle">Sticky Notes</h2>
+                  <img
+                    src={stickyNotes}
+                    alt="StickyNotes"
+                    class="img-responsive"
+                  ></img>
+                  <br></br>
+
+                  <p>
+                    Sticky notes is an application built to allow users to
+                    quickly create notes within their browsers. It allows the
+                    user to choose the background colour of each note from a
+                    drop-down list. The user can edit each note individually as
+                    well as delete any note on the page. This application was
+                    developed with HTML, CSS and JavaScript.
+                  </p>
+                  <br></br>
+                  <center>
+                    <a
+                      href="https://sticky-notes-application.herokuapp.com/"
+                      class="btn btn-primary liveBtn"
+                      target="_blank"
+                    >
+                      Live Site
+                    </a>
+                  </center>
+                  <center>
+                    <a
+                      href="https://github.com/johnpwajok/Sticky-Notes-Application/"
+                      class="btn btn-primary gitBtn"
+                      target="_blank"
+                    >
+                      View on GitHub
                     </a>
                   </center>
                 </div>
