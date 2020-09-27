@@ -16,14 +16,14 @@ export default class Skills extends Component {
             <h2>My Skills</h2>
             <div class="skill-row">
               <img class="web-design" src={data} alt="web-design-picture" />
-              <h3>Web Development and Design</h3>
+              <h3>Web&nbsp;Development and Design</h3>
               <p>
                 I studied web development both during my time in university as
                 well as for my own personal projects, and have gained experience
                 working with HTML, CSS, JavaScript, React, Node.js and Flask. I
                 also have experience with deployment to cloud services including
                 Heroku and AWS. Along with development, I have experience
-                developing wireframes and prototypes for web applications (with
+                creating wireframes and prototypes for web applications (with
                 Justinmind) and also API testing with Postman.
               </p>
             </div>

@@ -1,7 +1,7 @@
 h1,
 h2,
 h3 {
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Arial Black, Gadget, sans-serif;
 }
 
 p {
@@ -179,5 +179,17 @@ p {
   /* Disable colour change for projects */
   .jumbotron:hover {
     background-color: #f7c5a8;
+  }
+
+  .skill-row {
+    /* margin: 70px auto; */
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .skill-row {
+    /* margin: 70px auto; */
+    width: 100%;
   }
 }
