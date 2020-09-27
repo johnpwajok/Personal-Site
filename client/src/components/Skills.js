@@ -15,7 +15,7 @@ export default class Skills extends Component {
           <FadeIn>
             <h2>My Skills</h2>
             <div class="skill-row">
-              <img class="web-design" src={data} alt="web-design-picture" />
+              <img class="web-design" src={data} alt="web-design" />
               <h3>Web&nbsp;Development and Design</h3>
               <p>
                 I studied web development both during my time in university as
@@ -32,7 +32,7 @@ export default class Skills extends Component {
               <img
                 class="machine-learning "
                 src={artificialIntelligence}
-                alt="machine-learning-picture"
+                alt="machine-learning"
               />
               <h3>Systems Software</h3>
               <p>
@@ -46,11 +46,7 @@ export default class Skills extends Component {
               </p>
             </div>
             <div class="skill-row">
-              <img
-                class="web-design "
-                src={database}
-                alt="web-design-picture"
-              />
+              <img class="web-design " src={database} alt="web-design" />
               <h3>Infrastructure</h3>
               <p>
                 I studied Computer Science (Infrastructure) which has given me a

@@ -7,7 +7,7 @@ export default class Intro extends Component {
     return (
       <FadeIn>
         <div>
-          <img src={profilePicture} alt="profile-picture" />
+          <img src={profilePicture} alt="profile" />
           <br></br>
           <h1 class="mainHeading">Hello!</h1>
           <br></br>

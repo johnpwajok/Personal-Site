@@ -1,16 +1,23 @@
 h1,
 h2,
 h3 {
-  font-family: Arial Black, Gadget, sans-serif;
+  /* font-family: Arial Black, Gadget, sans-serif; */
+  font-family: "Montserrat-bold", sans-serif;
+  font: Montserrat-bold;
 }
-
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 p {
   font-family: Verdana, Geneva, sans-serif;
   font-size: large;
 }
 /* navbar component */
-#navbar {
-}
 
 .navbar-custom {
   background-color: #ff9a76;
@@ -27,12 +34,12 @@ p {
 /* //////////////////////////// */
 /* Landing page Component*/
 /* //////////////////////////// */
-.mainContainer {
-}
 
 /*Introduction div*/
-#introSection {
-  /* background-color: #ffeadb; */
+
+.mainHeading {
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 /* Skills div */

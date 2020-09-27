@@ -21,7 +21,7 @@ export default class Projects extends Component {
                   <h2 className="projectTitle">Chef Palace</h2>
                   <img
                     src={chefPalace}
-                    alt="ChefPalace image"
+                    alt="ChefPalace"
                     class="img-responsive"
                   ></img>
                   <br></br>
@@ -42,6 +42,7 @@ export default class Projects extends Component {
                       href="https://chefpalace.herokuapp.com/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Site
                     </a>
@@ -51,6 +52,7 @@ export default class Projects extends Component {
                       href="https://github.com/johnpwajok/Chef-Palace-React"
                       class="btn btn-primary gitBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on GitHub
                     </a>
@@ -63,7 +65,7 @@ export default class Projects extends Component {
                   <h2 className="projectTitle">Git-Overviews</h2>
                   <img
                     src={gitOverviews}
-                    alt="git overview image"
+                    alt="git overview"
                     class="img-responsive"
                   ></img>
                   <br></br>
@@ -82,6 +84,7 @@ export default class Projects extends Component {
                       href="https://git-overviews.herokuapp.com/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Site
                     </a>
@@ -91,6 +94,7 @@ export default class Projects extends Component {
                       href="https://github.com/johnpwajok/Utilising-GitHub-API"
                       class="btn btn-primary gitBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on GitHub
                     </a>
@@ -104,7 +108,7 @@ export default class Projects extends Component {
                   <h2 className="projectTitle">Fyjal</h2>
                   <img
                     src={fyjal}
-                    alt="ChefPalace image"
+                    alt="ChefPalace"
                     class="img-responsive"
                   ></img>
                   <br></br>
@@ -125,6 +129,7 @@ export default class Projects extends Component {
                       href="https://fyjal.herokuapp.com/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Site
                     </a>
@@ -134,6 +139,7 @@ export default class Projects extends Component {
                       href="https://github.com/johnpwajok/fyjal"
                       class="btn btn-primary gitBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on GitHub
                     </a>
@@ -143,7 +149,7 @@ export default class Projects extends Component {
               <div class="col-lg-6 col-md-6 col-sm-12 colItem">
                 <div class="jumbotron">
                   <h2 className="projectTitle">IKnowAPlace (FYP)</h2>
-                  <img src={IKAP} alt="munchiebox" class="img-responsive"></img>
+                  <img src={IKAP} alt="IKAP" class="img-responsive"></img>
                   <br></br>
 
                   <p>
@@ -161,6 +167,7 @@ export default class Projects extends Component {
                       href="https://youtu.be/ZpA0rp0-JG8"
                       class="btn btn-primary liveBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Video Demo
                     </a>
@@ -193,6 +200,7 @@ export default class Projects extends Component {
                       href="https://sticky-notes-application.herokuapp.com/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Site
                     </a>
@@ -202,6 +210,7 @@ export default class Projects extends Component {
                       href="https://github.com/johnpwajok/Sticky-Notes-Application/"
                       class="btn btn-primary gitBtn"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View on GitHub
                     </a>

@@ -21,24 +21,18 @@ export default class Contact extends Component {
               role="button"
               href="mailto:johnpwajok@protonmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src={emailIcon}
-                alt="git overview image"
-                class="contactIcon"
-              ></img>
+              <img src={emailIcon} alt="git overview" class="contactIcon"></img>
             </a>
             <a
               class="btn btn-warning btn-lg githubLink githubIcon"
               role="button"
               href="https://www.linkedin.com/in/john-g-pwajok-123762118/"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src={linkedIn}
-                alt="git overview image"
-                class="contactIcon "
-              ></img>
+              <img src={linkedIn} alt="git overview" class="contactIcon "></img>
             </a>
             <br></br>
           </div>
