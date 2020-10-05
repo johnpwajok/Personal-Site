@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 
 import styles from "./sytles/styles.css";
-import gitOverviews from "../images/gitOverviews.jpg";
-import chefPalace from "../images/chefPalace.jpg";
-import IKAP from "../images/IKAP.jpg";
-import fyjal from "../images/fyjal.jpg";
+import gitOverviews from "../images/gitOverviews.png";
+import chefPalace from "../images/chefPalace.png";
+import IKAP from "../images/IKAP.png";
+import fyjal from "../images/fyjal.png";
 import stickyNotes from "../images/sticky-notes.png";
 
 export default class Projects extends Component {
@@ -24,8 +24,6 @@ export default class Projects extends Component {
                     alt="ChefPalace"
                     class="img-responsive"
                   ></img>
-                  <br></br>
-                  <br></br>
                   <br></br>
 
                   <p>
@@ -112,9 +110,6 @@ export default class Projects extends Component {
                     class="img-responsive"
                   ></img>
                   <br></br>
-                  <br></br>
-                  <br></br>
-
                   <p>
                     Fyjal is a website created to promote a fictional financial
                     management mobile app. The website was created using React,
