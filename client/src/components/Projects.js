@@ -197,7 +197,7 @@ export default class Projects extends Component {
                   <br></br>
                   <center>
                     <a
-                      href="https://sticky-notes-application.herokuapp.com/"
+                      href="https://amazing-hugle-7b7a9e.netlify.app/"
                       class="btn btn-primary liveBtn"
                       target="_blank"
                       rel="noopener noreferrer"
