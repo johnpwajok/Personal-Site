@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 //hashlink lib from https://github.com/rafgraph/react-router-hash-link
 import { HashLink } from "react-router-hash-link";
-import styles from "./sytles/styles.css";
+import styles from "./styles/styles.css";
 
 export default class NavigationBar extends Component {
   render() {

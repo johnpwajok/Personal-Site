@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "./sytles/styles.css";
+import styles from "./styles/styles.css";
 import FadeIn from "react-fade-in";
 
 import Intro from "./Intro";

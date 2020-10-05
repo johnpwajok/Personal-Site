@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 
-import styles from "./sytles/styles.css";
+import styles from "./styles/styles.css";
 import gitOverviews from "../images/gitOverviews.png";
 import chefPalace from "../images/chefPalace.png";
 import IKAP from "../images/IKAP.png";
