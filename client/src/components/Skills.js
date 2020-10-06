@@ -48,7 +48,7 @@ export default class Skills extends Component {
                   <i class="fab fa-node-js"></i> Express
                 </li>
                 <li className="skillItem">
-                  <i class="fas fa-pepper-hot fa-flip-horizontal"></i> Flask
+                  <i class="fas fa-pepper-hot"></i> Flask
                 </li>
               </ul>
               <ul className="skillList">
@@ -82,11 +82,10 @@ export default class Skills extends Component {
               <ul className="skillList">
                 <li className="skillItem">
                   {" "}
-                  <i class="fab fa-python"></i> Python (+ Pandas & Scikit-learn)
+                  <i class="fab fa-python"></i> Python
                 </li>
                 <li className="skillItem">
-                  <i class="fab fa-cuttlefish"></i> C (+ Data Display Debugger
-                  (DDD))
+                  <i class="fab fa-cuttlefish"></i> C
                 </li>
               </ul>
 
@@ -123,12 +122,11 @@ export default class Skills extends Component {
                   <i class="fab fa-android"></i> Android
                 </li>
                 <li className="skillItem">
-                  <i class="fas fa-network-wired"></i> Networking technologies
-                  and principles (primarily Cisco Systems)
+                  <i class="fas fa-server"></i> Networking technologies
                 </li>
                 <li className="skillItem">
                   <i class="fas fa-database"></i> databases (MySQL, Oracle
-                  Database and PostgreSQL)
+                  Database &amp; PostgreSQL)
                 </li>
               </ul>
             </div>
