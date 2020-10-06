@@ -77,9 +77,8 @@ export default class Skills extends Component {
               <p>
                 I have gained experience working with various languages to
                 create desktop applications and to handle backend processing for
-                web applications.
+                web applications including:
               </p>
-              <p>These include:</p>
               <ul className="skillList">
                 <li className="skillItem">
                   {" "}
@@ -106,7 +105,7 @@ export default class Skills extends Component {
               <p>
                 From my time in university and through self-learning, I have
                 been able to gain a solid foundation working in multiple
-                environments including:
+                environments and with technologies including:
               </p>
               <ul className="skillList">
                 <li className="skillItem">

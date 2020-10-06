@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3 {
@@ -204,7 +207,7 @@ ul {
 }
 
 .linkedinLink:hover {
-  background-color: #1c7ab4;
+  background-color: #1577b4;
 }
 
 .linkedinIcon {
