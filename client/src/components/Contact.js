@@ -26,7 +26,7 @@ export default class Contact extends Component {
               <img src={emailIcon} alt="git overview" class="contactIcon"></img>
             </a>
             <a
-              class="btn btn-warning btn-lg githubLink githubIcon"
+              class="btn btn-warning btn-lg linkedinLink linkedinIcon"
               role="button"
               href="https://www.linkedin.com/in/john-g-pwajok-123762118/"
               target="_blank"

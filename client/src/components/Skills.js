@@ -20,12 +20,51 @@ export default class Skills extends Component {
               <p>
                 I studied web development both during my time in university as
                 well as for my own personal projects, and have gained experience
-                working with HTML, CSS, JavaScript, React, Node.js and Flask. I
-                also have experience with deployment to cloud services including
-                Heroku and AWS. Along with development, I have experience
-                creating wireframes and prototypes for web applications (with
-                Justinmind) and also API testing with Postman.
+                working with:{" "}
               </p>
+              <ul className="skillList">
+                <li className="skillItem">
+                  {" "}
+                  <i class="fab fa-html5"></i> HTML
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-css3-alt"></i> CSS
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-js-square"></i> JavaScript
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-bootstrap"></i> Bootstrap
+                </li>
+              </ul>
+              <ul className="skillList">
+                <li className="skillItem">
+                  <i class="fab fa-react"></i> React
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-node"></i> Node
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-node-js"></i> Express
+                </li>
+                <li className="skillItem">
+                  <i class="fas fa-pepper-hot fa-flip-horizontal"></i> Flask
+                </li>
+              </ul>
+              <ul className="skillList">
+                <li className="skillItem">
+                  <i class="fas fa-database"></i> MongoDB
+                </li>
+                <li className="skillItem">
+                  <i class="fas fa-database"></i> PostgreSQL
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-aws"></i> AWS RDS
+                </li>
+                <li className="skillItem">
+                  <i class="fas fa-rocket"></i> Postman
+                </li>
+              </ul>
             </div>
             <div class="skill-row">
               <br></br>
@@ -34,28 +73,65 @@ export default class Skills extends Component {
                 src={artificialIntelligence}
                 alt="machine-learning"
               />
-              <h3>Systems Software</h3>
+              <h3>Desktop Applications & Systems&nbsp;Software</h3>
               <p>
-                I have gained experience working with C (this was my first
-                programming language and is what got me interested in
-                programming), Python which I used extensively on the backend for
-                my final year project with the Pandas and Scikit-earn libraries,
-                and Java which was the language in which I was introduced to
-                OOP. I also have some exposure to R which I have used to do some
-                data visualisation projects.
+                I have gained experience working with various languages to
+                create desktop applications and to handle backend processing for
+                web applications.
               </p>
+              <p>These include:</p>
+              <ul className="skillList">
+                <li className="skillItem">
+                  {" "}
+                  <i class="fab fa-python"></i> Python (+ Pandas & Scikit-learn)
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-cuttlefish"></i> C (+ Data Display Debugger
+                  (DDD))
+                </li>
+              </ul>
+
+              <ul className="skillList">
+                <li className="skillItem">
+                  <i class="fab fa-java"></i> Java (+ Exposure to Android)
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-r-project"></i> R (Data Visualisation)
+                </li>
+              </ul>
             </div>
             <div class="skill-row">
               <img class="web-design " src={database} alt="web-design" />
               <h3>Infrastructure</h3>
               <p>
-                I studied Computer Science (Infrastructure) which has given me a
-                solid foundation in networking technologies and principles
-                (primarily Cisco Systems), databases (MySQL, Oracle Database and
-                PostgreSQL which I learned on my own) as well as configuring and
-                managing Linux Systems. I have development experience with
-                MacOS, Windows, Linux and Android.
+                From my time in university and through self-learning, I have
+                been able to gain a solid foundation working in multiple
+                environments including:
               </p>
+              <ul className="skillList">
+                <li className="skillItem">
+                  <i class="fab fa-windows"></i> Windows
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-linux"></i> Linux
+                </li>
+                <li className="skillItem">
+                  <i class="fab fa-apple"></i> MacOS
+                </li>
+              </ul>
+              <ul className="skillList">
+                <li className="skillItem">
+                  <i class="fab fa-android"></i> Android
+                </li>
+                <li className="skillItem">
+                  <i class="fas fa-network-wired"></i> Networking technologies
+                  and principles (primarily Cisco Systems)
+                </li>
+                <li className="skillItem">
+                  <i class="fas fa-database"></i> databases (MySQL, Oracle
+                  Database and PostgreSQL)
+                </li>
+              </ul>
             </div>
           </FadeIn>
         </div>

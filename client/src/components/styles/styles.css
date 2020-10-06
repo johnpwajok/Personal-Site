@@ -94,6 +94,23 @@ p {
   width: 20%;
 }
 
+ul {
+  position: relative;
+  list-style: none;
+}
+
+.skillItem::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+}
+.skillList {
+  padding-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 0.25rem;
+  float: left;
+}
+
 /* //////////////////////////// */
 /* Projects component */
 /* //////////////////////////// */
@@ -137,16 +154,28 @@ p {
   margin-right: 10%;
 }
 
+.projectInformation {
+  flex-direction: column;
+  justify-content: between;
+}
+
 .liveBtn {
   border-style: none;
   margin-bottom: 0.5rem;
   border-radius: 10px;
+  width: 15rem;
+  background-color: rgb(170, 36, 36);
+  outline: none;
+}
+.liveBtn:hover {
+  background-color: rgb(202, 22, 22);
 }
 .gitBtn {
-  background-color: gray;
+  background-color: rgb(31, 30, 30);
   color: white;
   border-style: none;
   border-radius: 10px;
+  outline: none;
 }
 
 .gitBtn:hover {
@@ -168,13 +197,17 @@ p {
   height: 3rem;
 }
 
-.githubLink {
+.linkedinLink {
   margin: auto 30px;
   text-decoration: none;
   font-family: "Cabin", sans-serif;
 }
 
-.githubIcon {
+.linkedinLink:hover {
+  background-color: #1c7ab4;
+}
+
+.linkedinIcon {
   background-color: #0072b1;
   color: #0072b1;
   border-style: none;
